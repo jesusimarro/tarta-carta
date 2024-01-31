@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería - Tarta a la Carta</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="imagenes/favicon.png">
+</head>
+<body>
+    <div class="div-top">
+        <div class="logo">
+            <a href="index.html">
+                <img class="img-logo" src="imagenes/logo.png" alt="Logo de Tarta a la carta">
+            </a>
+        </div>
+        <div class="menu">
+            <li>
+                <ul><a class="btn-menu" href="index.html">Inicio</a></ul>
+                <ul><a class="btn-menu seleccionado" href="pasteleria.html">Pastelería</a></ul>
+                <ul><a class="btn-menu" href="bolleria.html">Bollería/Panadería</a></ul>
+                <ul><a class="btn-menu" href="empanadas.html">Empanadas</a></ul>
+            </li>
+        </div>
+        <div class="idioma">
+            <img class="bandera" id="img-idioma" src="imagenes/idioma/francia.png" alt="Bandera de Francia" onclick="cambioIdioma()">
+        </div>
+    </div>
+    <h1>Pastelería</h1>
+    <div class="contenido">
+        <div class="tarjeta elemento1">
+            <div class="delante" id="elemento1-delante">
+                <img src="imagenes/tartas/tarta4.jpg" alt="Tarta de arándanos">
+                <p class="img-txt">Tarta de arándanos</p>
+                <div class="tarjeta-txt">
+                    <p>Disfruta de nuestra maravillosa tarta de queso, la especialidad de Tarta a la Carta. Realizada con los mejores productos de la zona, te encantará su sabor. ¿A qué esperas para probarla?</p>
+                    <button data-target="elemento1" onclick="vueltaTarjeta(event)">Ver receta</button>
+                </div>
+            </div>
+            <div class="detras detras-list" id="elemento1-detras">
+                <div class="columna">
+                    <img src="imagenes/tarjetas/tiempo.png" alt="Tiempo de preparación"> 90 min
+                    <img src="imagenes/tarjetas/ingredientes.png" alt="Ingredientes">
+                    <ul>
+                        <li>500 g de queso crema</li>
+                        <li>4 huevos</li>
+                        <li>200 g de azúcar</li>
+                        <li>50 g de harina</li>
+                        <li>285 ml de nata</li>
+                    </ul>
+                    <img src="imagenes/tarjetas/receta.png" alt="Receta"> Mezcla el queso en un bol y añade los huevos. Agrega azúcar y harina y continúa mezclando. Vierte la mezcla en un molde y hornea a 180º durante 45 min. Deja enfriar durante al menos dos horas, y sirve la tarta.
+                </div>
+                <button data-target="elemento1" onclick="vueltaTarjeta(event)">Ver producto</button>
+            </div>
+        </div>
+        <div class="tarjeta elemento2">
+            <div class="delante" id="elemento2-delante">
+                <img src="imagenes/tartas/tarta7.jpg" alt="Tarta de queso">
+                <p class="img-txt">Tarta de queso</p>
+                <div class="tarjeta-txt">
+                    <p>Disfruta de nuestra maravillosa tarta de queso, la especialidad de Tarta a la Carta. Realizada con los mejores productos de la zona, te encantará su sabor. ¿A qué esperas para probarla?</p>
+                    <button data-target="elemento2" onclick="vueltaTarjeta(event)">Ver receta</button>
+                </div>
+            </div>
+            <div class="detras detras-list" id="elemento2-detras">
+                <div class="columna">
+                    <img src="imagenes/tarjetas/tiempo.png" alt="Tiempo de preparación"> 90 min
+                    <img src="imagenes/tarjetas/ingredientes.png" alt="Ingredientes">
+                    <ul>
+                        <li>500 g de queso crema</li>
+                        <li>4 huevos</li>
+                        <li>200 g de azúcar</li>
+                        <li>50 g de harina</li>
+                        <li>285 ml de nata</li>
+                    </ul>
+                    <img src="imagenes/tarjetas/receta.png" alt="Receta"> Mezcla el queso en un bol y añade los huevos. Agrega azúcar y harina y continúa mezclando. Vierte la mezcla en un molde y hornea a 180º durante 45 min. Deja enfriar durante al menos dos horas, y sirve la tarta.
+                </div>
+                <button data-target="elemento2" onclick="vueltaTarjeta(event)">Ver producto</button>
+            </div>
+        </div>
+    </div>
+    <div class="contenido">
+        <div class="tarjeta elemento3">
+            <div class="delante" id="elemento3-delante">
+                <img src="imagenes/tartas/tarta6.jpg" alt="Tarta de frutos rojos">
+                <p class="img-txt">Tarta de frutos rojos</p>
+                <div class="tarjeta-txt">
+                    <p>Disfruta de nuestra maravillosa tarta de queso, la especialidad de Tarta a la Carta. Realizada con los mejores productos de la zona, te encantará su sabor. ¿A qué esperas para probarla?</p>
+                    <button data-target="elemento3" onclick="vueltaTarjeta(event)">Ver receta</button>
+                </div>
+            </div>
+            <div class="detras detras-list" id="elemento3-detras">
+                <div class="columna">
+                    <img src="imagenes/tarjetas/tiempo.png" alt="Tiempo de preparación"> 90 min
+                    <img src="imagenes/tarjetas/ingredientes.png" alt="Ingredientes">
+                    <ul>
+                        <li>500 g de queso crema</li>
+                        <li>4 huevos</li>
+                        <li>200 g de azúcar</li>
+                        <li>50 g de harina</li>
+                        <li>285 ml de nata</li>
+                    </ul>
+                    <img src="imagenes/tarjetas/receta.png" alt="Receta"> Mezcla el queso en un bol y añade los huevos. Agrega azúcar y harina y continúa mezclando. Vierte la mezcla en un molde y hornea a 180º durante 45 min. Deja enfriar durante al menos dos horas, y sirve la tarta.
+                </div>
+                <button data-target="elemento3" onclick="vueltaTarjeta(event)">Ver producto</button>
+            </div>
+        </div>
+        <div class="tarjeta elemento4">
+            <div class="delante" id="elemento4-delante">
+                <img src="imagenes/tartas/tarta9.jpg" alt="Tarta de queso">
+                <p class="img-txt">Tarta de queso</p>
+                <div class="tarjeta-txt">
+                    <p>Disfruta de nuestra maravillosa tarta de queso, la especialidad de Tarta a la Carta. Realizada con los mejores productos de la zona, te encantará su sabor. ¿A qué esperas para probarla?</p>
+                    <button data-target="elemento4" onclick="vueltaTarjeta(event)">Ver receta</button>
+                </div>
+            </div>
+            <div class="detras detras-list" id="elemento4-detras">
+                <div class="columna">
+                    <img src="imagenes/tarjetas/tiempo.png" alt="Tiempo de preparación"> 90 min
+                    <img src="imagenes/tarjetas/ingredientes.png" alt="Ingredientes">
+                    <ul>
+                        <li>500 g de queso crema</li>
+                        <li>4 huevos</li>
+                        <li>200 g de azúcar</li>
+                        <li>50 g de harina</li>
+                        <li>285 ml de nata</li>
+                    </ul>
+                    <img src="imagenes/tarjetas/receta.png" alt="Receta"> Mezcla el queso en un bol y añade los huevos. Agrega azúcar y harina y continúa mezclando. Vierte la mezcla en un molde y hornea a 180º durante 45 min. Deja enfriar durante al menos dos horas, y sirve la tarta.
+                </div>
+                <button data-target="elemento4" onclick="vueltaTarjeta(event)">Ver producto</button>
+            </div>
+        </div>
+    </div>
+    <div class="contenido">
+        <div class="tarjeta elemento5">
+            <div class="delante" id="elemento5-delante">
+                <img src="imagenes/tartas/tarta8.jpg" alt="Tarta de queso">
+                <p class="img-txt">Tarta de queso</p>
+                <div class="tarjeta-txt">
+                    <p>Disfruta de nuestra maravillosa tarta de queso, la especialidad de Tarta a la Carta. Realizada con los mejores productos de la zona, te encantará su sabor. ¿A qué esperas para probarla?</p>
+                    <button data-target="elemento5" onclick="vueltaTarjeta(event)">Ver receta</button>
+                </div>
+            </div>
+            <div class="detras detras-list" id="elemento5-detras">
+                <div class="columna">
+                    <img src="imagenes/tarjetas/tiempo.png" alt="Tiempo de preparación"> 90 min
+                    <img src="imagenes/tarjetas/ingredientes.png" alt="Ingredientes">
+                    <ul>
+                        <li>500 g de queso crema</li>
+                        <li>4 huevos</li>
+                        <li>200 g de azúcar</li>
+                        <li>50 g de harina</li>
+                        <li>285 ml de nata</li>
+                    </ul>
+                    <img src="imagenes/tarjetas/receta.png" alt="Receta"> Mezcla el queso en un bol y añade los huevos. Agrega azúcar y harina y continúa mezclando. Vierte la mezcla en un molde y hornea a 180º durante 45 min. Deja enfriar durante al menos dos horas, y sirve la tarta.
+                </div>
+                <button data-target="elemento5" onclick="vueltaTarjeta(event)">Ver producto</button>
+            </div>
+        </div>
+        <div class="tarjeta elemento6">
+            <div class="delante" id="elemento6-delante">
+                <img src="imagenes/tartas/tarta2.jpg" alt="Tarta de chocolate">
+                <p class="img-txt">Tarta de chocolate</p>
+                <div class="tarjeta-txt">
+                    <p>Disfruta de nuestra maravillosa tarta de queso, la especialidad de Tarta a la Carta. Realizada con los mejores productos de la zona, te encantará su sabor. ¿A qué esperas para probarla?</p>
+                    <button data-target="elemento6" onclick="vueltaTarjeta(event)">Ver receta</button>
+                </div>
+            </div>
+            <div class="detras detras-list" id="elemento6-detras">
+                <div class="columna">
+                    <img src="imagenes/tarjetas/tiempo.png" alt="Tiempo de preparación"> 90 min
+                    <img src="imagenes/tarjetas/ingredientes.png" alt="Ingredientes">
+                    <ul>
+                        <li>500 g de queso crema</li>
+                        <li>4 huevos</li>
+                        <li>200 g de azúcar</li>
+                        <li>50 g de harina</li>
+                        <li>285 ml de nata</li>
+                    </ul>
+                    <img src="imagenes/tarjetas/receta.png" alt="Receta"> Mezcla el queso en un bol y añade los huevos. Agrega azúcar y harina y continúa mezclando. Vierte la mezcla en un molde y hornea a 180º durante 45 min. Deja enfriar durante al menos dos horas, y sirve la tarta.
+                </div>
+                <button data-target="elemento6" onclick="vueltaTarjeta(event)">Ver producto</button>
+            </div>
+        </div>
+    </div>
+    <div class="contenido">
+        <div class="tarjeta elemento7">
+            <div class="delante" id="elemento7-delante">
+                <img src="imagenes/tartas/tarta1.jpg" alt="Pastel de nata">
+                <p class="img-txt">Pastel de nata</p>
+                <div class="tarjeta-txt">
+                    <p>Disfruta de nuestra maravillosa tarta de queso, la especialidad de Tarta a la Carta. Realizada con los mejores productos de la zona, te encantará su sabor. ¿A qué esperas para probarla?</p>
+                    <button data-target="elemento7" onclick="vueltaTarjeta(event)">Ver receta</button>
+                </div>
+            </div>
+            <div class="detras detras-list" id="elemento7-detras">
+                <div class="columna">
+                    <img src="imagenes/tarjetas/tiempo.png" alt="Tiempo de preparación"> 90 min
+                    <img src="imagenes/tarjetas/ingredientes.png" alt="Ingredientes">
+                    <ul>
+                        <li>500 g de queso crema</li>
+                        <li>4 huevos</li>
+                        <li>200 g de azúcar</li>
+                        <li>50 g de harina</li>
+                        <li>285 ml de nata</li>
+                    </ul>
+                    <img src="imagenes/tarjetas/receta.png" alt="Receta"> Mezcla el queso en un bol y añade los huevos. Agrega azúcar y harina y continúa mezclando. Vierte la mezcla en un molde y hornea a 180º durante 45 min. Deja enfriar durante al menos dos horas, y sirve la tarta.
+                </div>
+                <button data-target="elemento7" onclick="vueltaTarjeta(event)">Ver producto</button>
+            </div>
+        </div>
+        <div class="tarjeta elemento8">
+            <div class="delante" id="elemento8-delante">
+                <img src="imagenes/tartas/tarta3.jpg" alt="Tarta de cumpleaños">
+                <p class="img-txt">Tarta de cumpleaños</p>
+                <div class="tarjeta-txt">
+                    <p>Disfruta de nuestra maravillosa tarta de queso, la especialidad de Tarta a la Carta. Realizada con los mejores productos de la zona, te encantará su sabor. ¿A qué esperas para probarla?</p>
+                    <button data-target="elemento8" onclick="vueltaTarjeta(event)">Ver receta</button>
+                </div>
+            </div>
+            <div class="detras detras-list" id="elemento8-detras">
+                <div class="columna">
+                    <img src="imagenes/tarjetas/tiempo.png" alt="Tiempo de preparación"> 90 min
+                    <img src="imagenes/tarjetas/ingredientes.png" alt="Ingredientes">
+                    <ul>
+                        <li>500 g de queso crema</li>
+                        <li>4 huevos</li>
+                        <li>200 g de azúcar</li>
+                        <li>50 g de harina</li>
+                        <li>285 ml de nata</li>
+                    </ul>
+                    <img src="imagenes/tarjetas/receta.png" alt="Receta"> Mezcla el queso en un bol y añade los huevos. Agrega azúcar y harina y continúa mezclando. Vierte la mezcla en un molde y hornea a 180º durante 45 min. Deja enfriar durante al menos dos horas, y sirve la tarta.
+                </div>
+                <button data-target="elemento8" onclick="vueltaTarjeta(event)">Ver producto</button>
+            </div>
+        </div>
+    </div>
+    <div class="contenido">
+        <div class="tarjeta elemento9">
+            <div class="delante" id="elemento9-delante">
+                <img src="imagenes/tartas/tarta4.jpg" alt="Tarta de arándanos">
+                <p class="img-txt">Tarta de arándanos</p>
+                <div class="tarjeta-txt">
+                    <p>Disfruta de nuestra maravillosa tarta de queso, la especialidad de Tarta a la Carta. Realizada con los mejores productos de la zona, te encantará su sabor. ¿A qué esperas para probarla?</p>
+                    <button data-target="elemento9" onclick="vueltaTarjeta(event)">Ver receta</button>
+                </div>
+            </div>
+            <div class="detras detras-list" id="elemento9-detras">
+                <div class="columna">
+                    <img src="imagenes/tarjetas/tiempo.png" alt="Tiempo de preparación"> 90 min
+                    <img src="imagenes/tarjetas/ingredientes.png" alt="Ingredientes">
+                    <ul>
+                        <li>500 g de queso crema</li>
+                        <li>4 huevos</li>
+                        <li>200 g de azúcar</li>
+                        <li>50 g de harina</li>
+                        <li>285 ml de nata</li>
+                    </ul>
+                    <img src="imagenes/tarjetas/receta.png" alt="Receta"> Mezcla el queso en un bol y añade los huevos. Agrega azúcar y harina y continúa mezclando. Vierte la mezcla en un molde y hornea a 180º durante 45 min. Deja enfriar durante al menos dos horas, y sirve la tarta.
+                </div>
+                <button data-target="elemento9" onclick="vueltaTarjeta(event)">Ver producto</button>
+            </div>
+        </div>
+        <div class="tarjeta elemento10">
+            <div class="delante" id="elemento10-delante">
+                <img src="imagenes/tartas/tarta7.jpg" alt="Tarta de queso">
+                <p class="img-txt">Tarta de queso</p>
+                <div class="tarjeta-txt">
+                    <p>Disfruta de nuestra maravillosa tarta de queso, la especialidad de Tarta a la Carta. Realizada con los mejores productos de la zona, te encantará su sabor. ¿A qué esperas para probarla?</p>
+                    <button data-target="elemento10" onclick="vueltaTarjeta(event)">Ver receta</button>
+                </div>
+            </div>
+            <div class="detras detras-list" id="elemento10-detras">
+                <div class="columna">
+                    <img src="imagenes/tarjetas/tiempo.png" alt="Tiempo de preparación"> 90 min
+                    <img src="imagenes/tarjetas/ingredientes.png" alt="Ingredientes">
+                    <ul>
+                        <li>500 g de queso crema</li>
+                        <li>4 huevos</li>
+                        <li>200 g de azúcar</li>
+                        <li>50 g de harina</li>
+                        <li>285 ml de nata</li>
+                    </ul>
+                    <img src="imagenes/tarjetas/receta.png" alt="Receta"> Mezcla el queso en un bol y añade los huevos. Agrega azúcar y harina y continúa mezclando. Vierte la mezcla en un molde y hornea a 180º durante 45 min. Deja enfriar durante al menos dos horas, y sirve la tarta.
+                </div>
+                <button data-target="elemento10" onclick="vueltaTarjeta(event)">Ver producto</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-list">
+            <ul>
+                <li><img class="img-footer" src="imagenes/footer/telefono.png" alt="Número de teléfono">974 78 98 66</li>
+                <li><img class="img-footer" src="imagenes/footer/alfiler.png" alt="Dirección">Calle Nueva, 14. Benasque (Huesca)</li>
+                <li><img class="img-footer" src="imagenes/footer/gmail.png" alt="Email">tarta-carta@gmail.com</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="javascript/script.js"></script>
+</body>
+</html>

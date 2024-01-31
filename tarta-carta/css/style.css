@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota&family=Courgette&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Bellota";
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-family: "Courgette";
+    text-align: center;
+    font-size: 90px;
+    color: #e072a4;
+}
+
+ul {
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: #e072a4;
+}
+
+.seleccionado {
+    color: #f9f9f9;
+}
+
+.btn-menu {
+    font-size: 25px;
+}
+
+.btn-menu:hover {
+    color: #f9f9f9;
+}
+
+.principal {
+    background-image: url("../imagenes/tartas/tarta2.jpg");
+    background-position: inherit;
+    background-size: cover;
+    height: 82%;
+}
+
+.div-top {
+    background-color: #b0e298;
+    height: 155px;
+}
+
+.idioma {
+    position: absolute;
+    top: 10px;
+    right: 28px;
+}
+
+.bandera {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+
+.img-logo {
+    width: 130px;
+    height: 130px;
+}
+
+.texto {
+    text-align: center;
+}
+
+.texto p {
+    margin: 10px 70px 10px 70px;
+    font-size: 20px;
+}
+
+.texto iframe {
+    height: 315px;
+    width: 560px;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 15% auto 15%;
+}
+
+.tarjeta {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+    display: flex;
+}
+
+.tarjeta:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.delante {
+    display: block;
+}
+
+.detras {
+    display: none;
+}
+
+.delante, .detras {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.columna {
+    margin: 10px;
+    padding: 7px;
+    text-align: center;
+    flex-grow: 1;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+}
+
+.columna ul {
+    column-count: 2;
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 15px;
+}
+
+.columna li {
+    display: flex;
+    align-items: center;
+}
+
+.columna img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.delante img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    display: block;
+}
+
+.tarjeta-txt, .detras-list {
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+    align-items: stretch;
+}
+
+.img-txt {
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    background-color: #3d3b8e;
+    color: #f9f9f9;
+    padding: 5px;
+    width: 50%;
+}
+
+button {
+    width: 100%;
+    background-color: #3d3b8e;
+    color: #f9f9f9;
+    justify-content: center;
+    border: 1px solid #3d3b8e;
+    border-radius: 10px;
+    padding: 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f9f9f9;
+    color: #3d3b8e;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #3d3b8e;
+    color: #f9f9f9;
+    margin-top: 60px;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+}
+
+.img-footer {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.footer-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list li {
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}

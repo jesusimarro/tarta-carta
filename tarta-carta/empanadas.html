@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empanadas - Tarta a la Carta</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="imagenes/favicon.png">
+</head>
+<body>
+    <div class="div-top">
+        <div class="logo">
+            <a href="index.html">
+                <img class="img-logo" src="imagenes/logo.png" alt="Logo de Tarta a la carta">
+            </a>
+        </div>
+        <div class="menu">
+            <li>
+                <ul><a class="btn-menu" href="index.html">Inicio</a></ul>
+                <ul><a class="btn-menu" href="pasteleria.html">Pastelería</a></ul>
+                <ul><a class="btn-menu" href="bolleria.html">Bollería/Panadería</a></ul>
+                <ul><a class="btn-menu seleccionado" href="empanadas.html">Empanadas</a></ul>
+            </li>
+        </div>
+        <div class="idioma">
+            <img class="bandera" id="img-idioma" src="imagenes/idioma/francia.png" alt="Bandera de Francia" onclick="cambioIdioma()">
+        </div>
+    </div>
+    <h1>Empanadas</h1>
+    <div class="contenido">
+        <div class="tarjeta elemento1">
+            <div class="delante" id="elemento1-delante">
+                <img src="imagenes/empanada/empanada1.jpg" alt="Empanada de atún">
+                <p class="img-txt">Empanada de atún</p>
+                <div class="tarjeta-txt">
+                    <p>Disfruta de nuestra exquisita empanada de atún casera. Mezclando los mejores productos y las recetas más famosas de los dos lados de la frontera, seguro que repites. ¡Ven a probarla!</p>
+                    <button data-target="elemento1" onclick="vueltaTarjeta(event)">Ver receta</button>
+                </div>
+            </div>
+            <div class="detras detras-list" id="elemento1-detras">
+                <div class="columna">
+                    <img src="imagenes/tarjetas/tiempo.png" alt="Tiempo de preparación"> 75 min
+                    <img src="imagenes/tarjetas/ingredientes.png" alt="Ingredientes">
+                    <ul>
+                        <li>1 lata de atún</li>
+                        <li>Masa de empanadas</li>
+                        <li>2 huevos</li>
+                        <li>Aceite de oliva</li>
+                        <li>Cebolla y pimiento</li>
+                    </ul>
+                    <img src="imagenes/tarjetas/receta.png" alt="Receta"> Prepara el sofrito de pimientos y cebolla en la sartén, y agrega el atún. Estira la masa y coloca una porción del relleno. Enróllala y pincela el huevo batido sobre ella. Déjala calentando en el horno a 180º hasta que quede dorada y crujiente.
+                </div>
+                <button data-target="elemento1" onclick="vueltaTarjeta(event)">Ver producto</button>
+            </div>
+        </div>
+        <div class="tarjeta elemento2">
+            <div class="delante" id="elemento2-delante">
+                <img src="imagenes/empanada/empanada2.jpg" alt="Empanada de carne">
+                <p class="img-txt">Empanada de carne</p>
+                <div class="tarjeta-txt">
+                    <p>Disfruta de nuestra exquisita empanada de atún casera. Mezclando los mejores productos y las recetas más famosas de los dos lados de la frontera, seguro que repites. ¡Ven a probarla!</p>
+                    <button data-target="elemento2" onclick="vueltaTarjeta(event)">Ver receta</button>
+                </div>
+            </div>
+            <div class="detras detras-list" id="elemento2-detras">
+                <div class="columna">
+                    <img src="imagenes/tarjetas/tiempo.png" alt="Tiempo de preparación"> 75 min
+                    <img src="imagenes/tarjetas/ingredientes.png" alt="Ingredientes">
+                    <ul>
+                        <li>1 lata de atún</li>
+                        <li>Masa de empanadas</li>
+                        <li>2 huevos</li>
+                        <li>Aceite de oliva</li>
+                        <li>Cebolla y pimiento</li>
+                    </ul>
+                    <img src="imagenes/tarjetas/receta.png" alt="Receta"> Prepara el sofrito de pimientos y cebolla en la sartén, y agrega el atún. Estira la masa y coloca una porción del relleno. Enróllala y pincela el huevo batido sobre ella. Déjala calentando en el horno a 180º hasta que quede dorada y crujiente.
+                </div>
+                <button data-target="elemento2" onclick="vueltaTarjeta(event)">Ver producto</button>
+            </div>
+        </div>
+    </div>
+    <div class="contenido">
+        <div class="tarjeta elemento3">
+            <div class="delante" id="elemento3-delante">
+                <img src="imagenes/empanada/empanada3.jpg" alt="Empanada de verduras">
+                <p class="img-txt">Empanada de verduras</p>
+                <div class="tarjeta-txt">
+                    <p>Disfruta de nuestra exquisita empanada de atún casera. Mezclando los mejores productos y las recetas más famosas de los dos lados de la frontera, seguro que repites. ¡Ven a probarla!</p>
+                    <button data-target="elemento3" onclick="vueltaTarjeta(event)">Ver receta</button>
+                </div>
+            </div>
+            <div class="detras detras-list" id="elemento3-detras">
+                <div class="columna">
+                    <img src="imagenes/tarjetas/tiempo.png" alt="Tiempo de preparación"> 75 min
+                    <img src="imagenes/tarjetas/ingredientes.png" alt="Ingredientes">
+                    <ul>
+                        <li>1 lata de atún</li>
+                        <li>Masa de empanadas</li>
+                        <li>2 huevos</li>
+                        <li>Aceite de oliva</li>
+                        <li>Cebolla y pimiento</li>
+                    </ul>
+                    <img src="imagenes/tarjetas/receta.png" alt="Receta"> Prepara el sofrito de pimientos y cebolla en la sartén, y agrega el atún. Estira la masa y coloca una porción del relleno. Enróllala y pincela el huevo batido sobre ella. Déjala calentando en el horno a 180º hasta que quede dorada y crujiente.
+                </div>
+                <button data-target="elemento3" onclick="vueltaTarjeta(event)">Ver producto</button>
+            </div>
+        </div>
+        <div class="tarjeta elemento4">
+            <div class="delante" id="elemento4-delante">
+                <img src="imagenes/empanada/empanada4.jpg" alt="Empanada vegana">
+                <p class="img-txt">Empanada vegana</p>
+                <div class="tarjeta-txt">
+                    <p>Disfruta de nuestra exquisita empanada de atún casera. Mezclando los mejores productos y las recetas más famosas de los dos lados de la frontera, seguro que repites. ¡Ven a probarla!</p>
+                    <button data-target="elemento4" onclick="vueltaTarjeta(event)">Ver receta</button>
+                </div>
+            </div>
+            <div class="detras detras-list" id="elemento4-detras">
+                <div class="columna">
+                    <img src="imagenes/tarjetas/tiempo.png" alt="Tiempo de preparación"> 75 min
+                    <img src="imagenes/tarjetas/ingredientes.png" alt="Ingredientes">
+                    <ul>
+                        <li>1 lata de atún</li>
+                        <li>Masa de empanadas</li>
+                        <li>2 huevos</li>
+                        <li>Aceite de oliva</li>
+                        <li>Cebolla y pimiento</li>
+                    </ul>
+                    <img src="imagenes/tarjetas/receta.png" alt="Receta"> Prepara el sofrito de pimientos y cebolla en la sartén, y agrega el atún. Estira la masa y coloca una porción del relleno. Enróllala y pincela el huevo batido sobre ella. Déjala calentando en el horno a 180º hasta que quede dorada y crujiente.
+                </div>
+                <button data-target="elemento4" onclick="vueltaTarjeta(event)">Ver producto</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-list">
+            <ul>
+                <li><img class="img-footer" src="imagenes/footer/telefono.png" alt="Número de teléfono">974 78 98 66</li>
+                <li><img class="img-footer" src="imagenes/footer/alfiler.png" alt="Dirección">Calle Nueva, 14. Benasque (Huesca)</li>
+                <li><img class="img-footer" src="imagenes/footer/gmail.png" alt="Email">tarta-carta@gmail.com</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
